@@ -1,12 +1,12 @@
 require "minitest/autorun"
 require "minitest/metadata"
-
-describe MiniTest::Spec do
-  include MiniTest::Metadata
+require 'pry'
+describe Minitest::Spec do
+  include Minitest::Metadata
 
   it "::metadata returns metadata hash for each test method" do
     @cls = describe "A spec" do
-      include MiniTest::Metadata
+      include Minitest::Metadata
 
       it "test1", :js => true do; end
 

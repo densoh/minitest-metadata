@@ -1,4 +1,4 @@
-module MiniTest::Metadata
+module Minitest::Metadata
   module ClassMethods
     # Returns Hash metadata for class' test methods
     def metadata

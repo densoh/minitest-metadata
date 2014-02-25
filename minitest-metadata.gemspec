@@ -4,7 +4,7 @@ require "minitest/metadata/version"
 
 Gem::Specification.new do |s|
   s.name        = "minitest-metadata"
-  s.version     = MiniTest::Metadata::VERSION
+  s.version     = Minitest::Metadata::VERSION
   s.authors     = ["Wojciech Mach"]
   s.email       = ["wojtek@wojtekmach.pl"]
   s.homepage    = ""
