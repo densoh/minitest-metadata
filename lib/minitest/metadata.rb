@@ -37,6 +37,6 @@ module MiniTest::Metadata
 
   # Returns Hash metadata for currently running test
   def metadata
-    self.class.metadata[__name__] || {}
+    self.class.metadata[@NAME] || {}
   end
 end
